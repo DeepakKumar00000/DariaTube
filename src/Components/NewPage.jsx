@@ -13,7 +13,7 @@ const NewPage = () => {
       {/* Image Section */}
       <div className="w-full md:w-1/2 flex justify-center mb-6 md:mb-0">
         <img 
-          src="khadoo.jpg"
+          src="/khadoo.jpg"
           alt="Khadoo"
           className="w-[90%] max-w-[500px] h-auto rounded-xl object-cover"
         />
