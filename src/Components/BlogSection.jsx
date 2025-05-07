@@ -5,7 +5,7 @@ const BlogSection = () => {
     {
       id: 1,
       tag: 'Insights',
-      image: 'Blog1.png',
+      image: '/Blog1.png',
       title: 'The Art Of The Awkward Pause: Timing In Stand-Up',
       description:
         'In comedy, silence can be just as powerful as the punchline. The awkward pause creates tension, heightens anticipation, and makes the eventual joke hit harder. Great comedians master the pause to let the audience squirm — then explode with laughter.',
@@ -13,7 +13,7 @@ const BlogSection = () => {
     {
       id: 2,
       tag: 'Tips',
-      image: 'Blog2.jpg',
+      image: '/Blog2.jpg',
       title: 'Comedy Or Therapy? When Stand-Up Gets Real',
       description:
         'Sometimes laughter is just a mask for pain. Many stand-up acts dive deep into personal struggles, turning trauma into punchlines. For comedians, the stage can feel like a therapy couch — and the audience, a room full of understanding strangers.',
@@ -21,7 +21,7 @@ const BlogSection = () => {
     {
       id: 3,
       tag: 'Stories',
-      image: 'Blog3.jpg',
+      image: '/Blog3.jpg',
       title: 'Punchlines & Panic Attacks: The Truth Behind Stage Nerves',
       description:
         'Beneath the spotlight and steady flow of punchlines lies a heart racing with anxiety. Stage fright doesn’t spare even the funniest performers — the pressure to deliver laughs can trigger real panic. But in facing those nerves, comedians find strength, authenticity.',
