@@ -118,7 +118,7 @@ const Navbar = () => {
 
             <a href="#" className="block text-right hover:text-[#FF6427]">Contact</a>
 
-            <div className="text-right">
+{/*             <div className="text-right">
               <button
                 onClick={() => {
                   setMenuOpen(false);
@@ -128,7 +128,8 @@ const Navbar = () => {
               >
                 Login
               </button>
-            </div>
+            </div> */}
+            
           </div>
         )}
       </nav>
