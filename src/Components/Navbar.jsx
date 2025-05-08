@@ -61,8 +61,8 @@ const Navbar = () => {
             <li><a href="#" className="hover:text-[#FF6427]">Contact</a></li>
           </ul>
 
-          {/* Login Button (Desktop) */}
-          {/* <div className="hidden md:block">
+        
+{/*           <div className="hidden md:block">
             <button
               onClick={() => navigate('/login')}
               className="bg-[#FF6427] text-white font-bold px-4 py-2 rounded-lg transition duration-300 hover:bg-orange-500"
