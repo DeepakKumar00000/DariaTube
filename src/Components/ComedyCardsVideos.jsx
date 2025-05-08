@@ -10,7 +10,7 @@ const ComedyCardsVideos = () => {
 
   useEffect(() => {
     axios
-      .get("http://148.251.88.109:8061/api/get-videos")
+      .get("https://backendhausa.onrender.com/api/get-videos")
       .then((response) => {
         console.log("data", response.data);
         setVideos(response.data.result);
