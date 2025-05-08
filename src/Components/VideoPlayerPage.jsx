@@ -14,7 +14,7 @@ const VideoPlayerPage = () => {
 
   useEffect(() => {
     axios
-      .get("http://148.251.88.109:8061/api/get-videos")
+      .get("https://backendhausa.onrender.com/api/get-videos")
       .then((res) => {
         const videos = res.data.result || [];
         setAllVideos(videos);
@@ -55,7 +55,7 @@ const VideoPlayerPage = () => {
       <div className="p-4 max-w-screen-lg mx-auto">
         <h1 className="text-2xl font-bold mb-4">{video.name}</h1>
         <ReactPlayer
-          url={video.vurlaws || video.vurl}
+          url={video.vurl || video.vurlaws}
           controls
           width="100%"
           height="500px"
