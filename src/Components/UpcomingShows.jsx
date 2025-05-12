@@ -1,12 +1,11 @@
 
-
 import React from 'react';
 
 const UpcomingShows = () => {
   const shows = [
     {
       id: 1,
-      image: '/khadoo1.jpg',
+      image: 'khadoo1.jpg',
       title: 'Khadoo (A Khadoo Comedy)',
       About: 'About Khadoos Life',
       description:
@@ -14,7 +13,7 @@ const UpcomingShows = () => {
     },
     {
       id: 2,
-      image: '/khadoo2.jpg',
+      image: 'khadoo2.jpg',
       title: 'Bariyu Yesufu ',
       About: 'About Yesufu Background',
       description:
@@ -22,7 +21,7 @@ const UpcomingShows = () => {
     },
     {
       id: 3,
-      image: '/khadoo3.jpg',
+      image: 'khadoo3.jpg',
       title: 'Son Zuciya',
       About: 'About His Comedy',
       description:
@@ -30,7 +29,7 @@ const UpcomingShows = () => {
     },
     {
       id: 4,
-      image: '/khadoo4.jpeg',
+      image: 'khadoo4.jpeg',
       title: 'Yan Pi Network',
       About: 'About Yan Pi Network',
       description:
